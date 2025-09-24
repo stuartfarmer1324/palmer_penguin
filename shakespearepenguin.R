@@ -4,6 +4,7 @@ pd
 model1 <- lm(bill_length_mm ~ bill_depth_mm, pd)
 
 #This is a comment
+#this is another comment
 
 plot_penguin <- ggplot(data = model1, 
                        aes(x=bill_length_mm, y=bill_depth_mm))+
